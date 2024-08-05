@@ -1,0 +1,87 @@
+body{
+    height:100vh;
+    width:100vw;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://img.freepik.com/premium-vector/retro-80s-sunset-scifi-futuristic-style-background-vector-retro-futuristic-synthwave-illustration_746437-85.jpg");
+    background-size: cover;
+     background-repeat: none; 
+}
+#h{
+    color:purple;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.choice{
+    margin-bottom: 30px;
+}
+.choice button{
+    font-size: 3.5rem;
+    min-width: 160px;
+    margin: 0 5px;
+    border:none;
+    border-radius: 50px;
+    border-color: rgb(209, 200, 200);
+    background-color: rgb(38, 127, 187);
+    transition: background-color 0.5s ease;
+}
+.choice button:hover{
+    background-color: rgb(87, 154, 199);
+    box-shadow: 10px 10px 2px rgb(173, 173, 173);
+}
+#pd,#cd{
+    font-size: 3.5rem;
+}
+#rd{
+    font-size: 7.5rem;
+    margin:20px 0;
+}
+.red,#csd{
+    color:rgb(250, 66, 66);
+}
+.green,#psd{
+    color:rgb(34, 247, 45);
+}
+.scoredisplay{
+    font-size: 2rem;
+}
+#mainres{
+    margin-top: 40px;
+    font-size: 3.5rem;
+    color:rgb(14, 207, 143)
+}
+@media (max-width: 200px) {
+     body{
+        /* background-repeat: none; */
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       height:100%;
+       width:100%;
+       background-size: cover;
+       background-repeat: none;
+     }
+     .choice{
+        display:inline-block;
+        height:10vh;
+        width:10vw;
+        background-color: red;
+        /* min-width:10px; */
+     }
+}
+/*  
+@media (max-width: 502px) {
+    body{
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height:100%;
+      width:100%;
+      background-size: cover;
+      background-repeat: none;
+    }
+    button{
+       /* width:50vw; */
